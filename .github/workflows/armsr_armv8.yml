@@ -54,8 +54,8 @@ jobs:
         chmod +x armsr/armv8/diy/diy.sh
         cd openwrt
         ./scripts/feeds update -a
-        $GITHUB_WORKSPACE/armsr/armv8/diy/diy.sh
         ./scripts/feeds update -a
+        $GITHUB_WORKSPACE/armsr/armv8/diy/diy.sh
         ./scripts/feeds install -a
 
     - name: Load N1 custom config

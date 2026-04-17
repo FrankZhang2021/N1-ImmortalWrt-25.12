@@ -4,7 +4,7 @@
 
 固件仅包含默认皮肤以及下列 LuCI 应用：
 
-- luci-app-daed：基于 eBPF 分流的代理工具。内存占用稍大、上手门槛较高，换来的是直连流量处理性能大幅强于传统的各类用户态代理工具，如 openClash、SSRplus 等。
+- luci-app-daed：基于 eBPF 分流的代理工具，当前配置中默认未启用；如需使用可自行开启。该工具内存占用稍大、上手门槛较高，但直连流量处理性能通常优于传统用户态代理工具（如 openClash、SSRplus）。
 - [luci-app-mosdns](https://github.com/sbwml/luci-app-mosdns)：DNS 分流与解析增强，支持本地规则处理与缓存优化。
 
 ## 致谢
